@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import { Container } from './styles';
 import cliqueme1 from '../../images/cliqueme1.jpg';
-import cliqueme2 from '../../images/cliqueme2.jpg';
+
 
 export default function CardProject(){
     
@@ -15,7 +15,6 @@ export default function CardProject(){
                         <div className="card-body">
                             <h5 className="card-title">Cliqueme</h5>
                             <p className="card-text">&emsp;O cliqueme é uma plataforma para fotográfos carregarem suas fotos tiradas em eventos cadastrados pelo cliqueme e colocados a venda, para qualquer pessoa comprar foi desenvolvido com as ferramentas PHP, CakePHP framework, MySQL</p>
-                            
                         </div>
                     </div>
                     <div className="card">

@@ -6,12 +6,14 @@ export default function Menu (){
   return (
     <>
         <Container>
-            <nav>
+            <div className="wallpaper">
+                <a href="#menu" className="link-about">Sobre mim</a>
+            </div>
+            <nav id="menu">
                 <ul>
-                    <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/blog">Blog</Link></li>
                 </ul>
             </nav>
         </Container>
