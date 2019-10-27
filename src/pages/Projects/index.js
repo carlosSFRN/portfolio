@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../../components/Menu';
+import Menu from '../../components/Home';
 import Banner from '../../components/Banner';
 import CardProject from '../../components/CardProject';
 

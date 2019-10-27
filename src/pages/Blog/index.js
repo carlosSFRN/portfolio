@@ -1,7 +1,8 @@
 import React from 'react';
-import Menu from '../../components/Menu';
+import Menu from '../../components/Home';
 import BlogBanner from '../../components/BlogBanner';
 import Banner from '../../components/Banner';
+
 
 export default function Contact(){
   return (
